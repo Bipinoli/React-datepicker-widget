@@ -6,7 +6,7 @@ import PickedDate from "./PickedDate";
 const DatePicker = () => {
   return (
     <div className={classes.date_picker}>
-      <PickedDate />
+      <PickedDate date={new Date()} />
       <Calendar />
       <div className={classes.footer}>
         <div className={classes.btn}>Cancel</div>
