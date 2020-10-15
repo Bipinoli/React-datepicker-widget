@@ -158,3 +158,6 @@ $card-padding: 1rem;
   animation-duration: 0.3s;
   animation-timing-function: ease-in;
 }
+.no_hover:hover {
+  cursor: default !important;
+}

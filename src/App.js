@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.scss";
 
-import DatePicker from "./components/DatePicker";
+import DatePicker from "./components/datePicker/DatePicker";
 
 function App() {
   return (
